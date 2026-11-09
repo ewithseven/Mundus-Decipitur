@@ -73,8 +73,8 @@ def fig2():
         s.append(f"<line x1='{x(t):.1f}' x2='{x(t):.1f}' y1='{top - 8}' y2='{top + rowh * len(ROWS)}' stroke='{GRID}' stroke-width='1'/>")
         s.append(f"<text x='{x(t):.1f}' y='{top + rowh * len(ROWS) + 16}' font-size='11' fill='{INK2}' text-anchor='middle'>{t:.1f}</text>")
     s.append(f"<text x='{x(0.5) + 3:.1f}' y='{top - 2}' font-size='10' fill='{INK2}'>chance</text>")
-    s.append(f"<circle cx='{left}' cy='18' r='5' fill='{BLUE}'/><text x='{left + 10}' y='22' font-size='12' fill='{INK}'>Probability asked (AUROC): what the monitor knows</text>")
-    s.append(f"<circle cx='{left}' cy='38' r='5' fill='{ORANGE}'/><text x='{left + 10}' y='42' font-size='12' fill='{INK}'>Verdict asked (balanced accuracy): what it says</text>")
+    s.append(f"<circle cx='{left}' cy='18' r='5' fill='{BLUE}'/><text x='{left + 10}' y='22' font-size='12' fill='{INK}'>Probability asked: AUROC of the stated probability</text>")
+    s.append(f"<circle cx='{left}' cy='38' r='5' fill='{ORANGE}'/><text x='{left + 10}' y='42' font-size='12' fill='{INK}'>Verdict asked: AUROC of the binary flag (= balanced accuracy)</text>")
     for i, (lab, auc, tpr, fpr) in enumerate(ROWS):
         cy = top + rowh * i + rowh / 2; ba = (tpr + 1 - fpr) / 2
         s.append(f"<text x='{left - 12}' y='{cy + 4:.1f}' font-size='11.5' fill='{INK}' text-anchor='end'>{lab}</text>")
