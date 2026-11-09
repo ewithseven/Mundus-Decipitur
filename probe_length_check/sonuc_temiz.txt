@@ -1,0 +1,19 @@
+core train samples 372 (colluder 186, honest 186) | stego final samples 160
+missing lengths: 0 0
+n_tokens: mean 1326, mean within-run sd 404.4 (≈0 would mean it is a shared prompt length)
+
+REPLICATION (paper: Qwen3 stego ~1.00 / 0.99 / 1.00)
+  auc_peak         mean 1.000 sd 0.000 (n=50)
+  auc_split        mean 0.999 sd 0.002 (n=50)
+  auc_align        mean 1.000 sd 0.000 (n=5)
+  auc_agent_role   mean 0.973 sd 0.035 (n=50)
+
+LENGTH TEST (Spearman of probe score with SHORTNESS; pre-registered primary = pub)
+  pub   honest +0.130 | colluder +0.796 | all agents +0.605
+  fin   honest +0.235 | colluder +0.537 | all agents +0.568
+  ntok  honest +0.130 | colluder -0.211 | all agents -0.481
+pre-registered verdict: BELIRSIZ
+
+|cos| probe direction vs honest-only length direction (per layer): [0.007 0.002 0.007 0.022 0.015]
+core train n_tokens: colluder mean 1688, honest mean 1350
+stego final lengths (pub chars): colluder 317, honest-in-collusion 611, honest-in-control 677

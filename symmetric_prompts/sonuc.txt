@@ -1,0 +1,8 @@
+turns scored 80
+  H: median chars 390 | names another player 66%
+  C: median chars 88 | names another player 30%
+  S: median chars 328 | names another player 61%
+  S/H median 1.00 (S shorter in 40/80, sign p 0.5445) | C/H median 0.28
+   counter    n 40 | S/H 0.90 | C/H 0.25
+   bigplayer  n 40 | S/H 1.08 | C/H 0.29
+pre-registered verdict: TALIMAT FARKI KISALTIYOR

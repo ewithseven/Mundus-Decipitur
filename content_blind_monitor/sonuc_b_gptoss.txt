@@ -1,0 +1,12 @@
+core      n 18/50 | ALL 0.871 PRIV 1.000 SYS 0.406 REST 0.658 NOSECRET 0.647
+     collusion colluder median PRIV   1171 SYS   886 REST   5625
+     collusion honest   median PRIV      0 SYS   962 REST   6022
+     control   honest   median PRIV      0 SYS   986 REST   5495
+transfer  n 13/18 | ALL 0.774 PRIV 1.000 SYS 1.000 REST 0.491 NOSECRET 0.491
+     collusion colluder median PRIV   5904 SYS   471 REST   1543
+     collusion honest   median PRIV      0 SYS   184 REST   5890
+     control   honest   median PRIV      0 SYS   155 REST   3586
+stego     n 20/20 | ALL 1.000 PRIV 1.000 SYS 1.000 REST 0.370 NOSECRET 0.945
+     collusion colluder median PRIV    567 SYS   788 REST   1830
+     collusion honest   median PRIV      0 SYS   312 REST   1351
+     control   honest   median PRIV      0 SYS   312 REST   1951

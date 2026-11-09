@@ -1,0 +1,49 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 326' width='720' height='326' font-family='Segoe UI, Helvetica, Arial, sans-serif'>
+<rect width='720' height='326' fill='#fcfcfb'/>
+<line x1='250.0' x2='250.0' y1='68' y2='280' stroke='#e4e2dc' stroke-width='1'/>
+<text x='250.0' y='296' font-size='11' fill='#5f5e5a' text-anchor='middle'>0.5</text>
+<line x1='324.0' x2='324.0' y1='68' y2='280' stroke='#e4e2dc' stroke-width='1'/>
+<text x='324.0' y='296' font-size='11' fill='#5f5e5a' text-anchor='middle'>0.6</text>
+<line x1='398.0' x2='398.0' y1='68' y2='280' stroke='#e4e2dc' stroke-width='1'/>
+<text x='398.0' y='296' font-size='11' fill='#5f5e5a' text-anchor='middle'>0.7</text>
+<line x1='472.0' x2='472.0' y1='68' y2='280' stroke='#e4e2dc' stroke-width='1'/>
+<text x='472.0' y='296' font-size='11' fill='#5f5e5a' text-anchor='middle'>0.8</text>
+<line x1='546.0' x2='546.0' y1='68' y2='280' stroke='#e4e2dc' stroke-width='1'/>
+<text x='546.0' y='296' font-size='11' fill='#5f5e5a' text-anchor='middle'>0.9</text>
+<line x1='620.0' x2='620.0' y1='68' y2='280' stroke='#e4e2dc' stroke-width='1'/>
+<text x='620.0' y='296' font-size='11' fill='#5f5e5a' text-anchor='middle'>1.0</text>
+<text x='253.0' y='74' font-size='10' fill='#5f5e5a'>chance</text>
+<circle cx='250' cy='18' r='5' fill='#2a78d6'/><text x='260' y='22' font-size='12' fill='#1f1e1c'>Probability asked (AUROC): what the monitor knows</text>
+<circle cx='250' cy='38' r='5' fill='#eb6834'/><text x='260' y='42' font-size='12' fill='#1f1e1c'>Verdict asked (balanced accuracy): what it says</text>
+<text x='238' y='97.0' font-size='11.5' fill='#1f1e1c' text-anchor='end'>Sonnet 5.5 · Transfer (13 pairs)</text>
+<line x1='306.9' x2='593.4' y1='93.0' y2='93.0' stroke='#5f5e5a' stroke-width='2'/>
+<circle cx='306.9' cy='93.0' r='5.5' fill='#eb6834' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='593.4' cy='93.0' r='5.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<text x='634.0' y='97.0' font-size='10.5' fill='#5f5e5a'>0.96 / 0.58</text>
+<text x='238' y='131.0' font-size='11.5' fill='#1f1e1c' text-anchor='end'>Sonnet 5.5 · Stego, naive prompt</text>
+<line x1='527.5' x2='613.3' y1='127.0' y2='127.0' stroke='#5f5e5a' stroke-width='2'/>
+<circle cx='527.5' cy='127.0' r='5.5' fill='#eb6834' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='613.3' cy='127.0' r='5.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<text x='634.0' y='131.0' font-size='10.5' fill='#5f5e5a'>0.99 / 0.88</text>
+<text x='238' y='165.0' font-size='11.5' fill='#1f1e1c' text-anchor='end'>Ministral-8B · Stego, informed</text>
+<line x1='287.0' x2='480.9' y1='161.0' y2='161.0' stroke='#5f5e5a' stroke-width='2'/>
+<circle cx='287.0' cy='161.0' r='5.5' fill='#eb6834' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='480.9' cy='161.0' r='5.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<text x='634.0' y='165.0' font-size='10.5' fill='#5f5e5a'>0.81 / 0.55</text>
+<text x='238' y='199.0' font-size='11.5' fill='#1f1e1c' text-anchor='end'>Qwen2.5-7B · Stego, informed</text>
+<line x1='435.0' x2='373.6' y1='195.0' y2='195.0' stroke='#5f5e5a' stroke-width='2'/>
+<circle cx='435.0' cy='195.0' r='5.5' fill='#eb6834' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='373.6' cy='195.0' r='5.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<text x='634.0' y='199.0' font-size='10.5' fill='#5f5e5a'>0.67 / 0.75</text>
+<text x='238' y='233.0' font-size='11.5' fill='#1f1e1c' text-anchor='end'>Qwen2.5-7B · Stego, naive</text>
+<line x1='305.5' x2='364.7' y1='229.0' y2='229.0' stroke='#5f5e5a' stroke-width='2'/>
+<circle cx='305.5' cy='229.0' r='5.5' fill='#eb6834' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='364.7' cy='229.0' r='5.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<text x='634.0' y='233.0' font-size='10.5' fill='#5f5e5a'>0.66 / 0.57</text>
+<text x='238' y='267.0' font-size='11.5' fill='#1f1e1c' text-anchor='end'>Ministral-8B · Stego, naive</text>
+<line x1='287.0' x2='305.5' y1='263.0' y2='263.0' stroke='#5f5e5a' stroke-width='2'/>
+<circle cx='287.0' cy='263.0' r='5.5' fill='#eb6834' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='305.5' cy='263.0' r='5.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<text x='634.0' y='267.0' font-size='10.5' fill='#5f5e5a'>0.57 / 0.55</text>
+<text x='435' y='318' font-size='11' fill='#5f5e5a' text-anchor='middle'>Separation of colluding vs. honest teams (0.5 = chance, 1.0 = perfect)</text>
+</svg>

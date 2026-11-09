@@ -1,0 +1,6 @@
+group sizes: {'counter': 20, 'bigplayer': 20, 'honest': 120} | mean chars: {'counter': 189, 'bigplayer': 444, 'honest': 655}
+rho_counter      +0.295
+mean_counter     +17.778
+rho_bigplayer    +0.185
+mean_bigplayer   +13.996
+mean_honest      +11.205
